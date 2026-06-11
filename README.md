@@ -2,7 +2,7 @@
 
 > **Student:** 2312251
 > **Course:** DevOps Fundamentals
-> **Live URL:** http://YOUR_EC2_PUBLIC_IP:8000   (fill in after AWS step)
+> **Live URL:** http://13.53.254.205:8000
 
 ---
 
@@ -32,7 +32,7 @@ GitHub Push
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/2312251-devops-project
+git clone https://github.com/vvspower/2312251-devops-project
 cd 2312251-devops-project
 
 # 2. Create your .env file
