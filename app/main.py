@@ -23,7 +23,7 @@ class StudentResponse(StudentCreate):
     class Config:
         from_attributes = True
 
-
+#looks good
 # ── Dependency ────────────────────────────────────────────
 def get_db():
     db = database.SessionLocal()
@@ -63,7 +63,7 @@ def create_student(student: StudentCreate, db: Session = Depends(get_db)):
     db.refresh(db_student)
     return db_student
 
-
+#/students endpointtt
 @app.get("/students", response_model=list[StudentResponse])
 def list_students(db: Session = Depends(get_db)):
     """Return all students from the database."""
